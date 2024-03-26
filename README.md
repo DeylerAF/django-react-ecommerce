@@ -14,28 +14,27 @@ Before you begin, ensure that you have the following installed on your system. I
 2. Change to the directory where you want to create your project.
 3. Run the following command to clone the repository:
     ```
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/DeylerAF/django-react-ecommerce.git
     ```
-    Replace `your-username` and `your-repository` with your actual GitHub username and repository name.
 
 ## Step 2: Set Up the Backend (Django)
 
 1. Change to the project's backend directory:
     ```
-    cd your-repository/backend
+    cd django-react-ecommerce/app/backend
     ```
 2. Create a virtual environment:
     ```
-    python -m venv venv
+    python -m venv .venv
     ```
 3. Activate the virtual environment:
     - On Windows:
         ```
-        venv\Scripts\activate
+        .venv\Scripts\activate
         ```
     - On macOS and Linux:
         ```
-        source venv/bin/activate
+        source .venv/bin/activate
         ```
 4. Install the required Python packages:
     ```
@@ -50,7 +49,7 @@ Before you begin, ensure that you have the following installed on your system. I
 
 1. Change to the project's frontend directory:
     ```
-    cd your-repository/frontend
+    cd django-react-ecommerce/app/frontend
     ```
 2. Install the required Node.js packages:
     ```
@@ -62,13 +61,13 @@ Before you begin, ensure that you have the following installed on your system. I
 1. Open two separate terminal windows or tabs.
 2. In the first terminal, navigate to the backend directory and start the Django development server:
     ```
-    cd your-repository/backend
+    cd django-react-ecommerce/app/backend
     python manage.py runserver
     ```
 3. In the second terminal, navigate to the frontend directory and start the React development server:
     ```
-    cd your-repository/frontend
+    cd django-react-ecommerce/app/frontend
     npm start
     ```
 
-That's it! You have successfully set up and started your project. Happy coding!
+That's it! You have successfully set up and started the project. Happy coding!
